@@ -19,7 +19,6 @@ def PlotPopularTimes_BarChart(placeData):
 	plt.ylabel('Popularity')
 	plt.title('Popular Times at %s - %s'%(placeData['name'], popularTimes[0]['name']))
 	plt.show()
-
 #popularTimesReporter(fakedata.smallSet)
 for place in fakedata.bigSet:
 	#item = fakedata.bigSet[40]
